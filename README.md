@@ -3,6 +3,7 @@
 # Table of Content
 - [Table of Content](#table-of-content)
 - [Description of the machine](#description-of-the-machine)
+- [How it works](#how-it-works)
 - [References](#references)
 
 # Description of the machine
@@ -27,5 +28,17 @@ Figure 2 : Picture of the final design of the delivery subsystem from the inside
 Figure 3 : Picture of the final design of the delivery subsystem from the outside
 </p>
 
+# How it works
+
+For the sorting subsystem, the user places a foam cube on the conveyor belt in front of the color sensor. The color sensor will read the cube’s color, and will instruct the sorting subsystem to rotate the conveyor belt so that the foam cube is in front of its appropriate bucket, and will then be kicked by the motor into
+the bucket. The motor used to kick the cube will then retract back to its original position, and the processcan be done again until the bucket has been completely filled. Figure 4 shows a visual representation of this process.
+<p align="center">
+<img src="https://raw.githubusercontent.com/rajanptl/SortingAndDeliveryBot/main/Picture/Figure%203.PNG" width="400" height="400" />
+</p>
+<p align="center">
+Figure 3 : Picture of the final design of the delivery subsystem from the outside
+</p>
+
+The bucket’s are designed so that there is an opening at the bottom that is large enough for one foam cube to pass through, with all other stored foam cubes placed on top of it. At the bottom of the bucket, behind it there is a motor that serves to push the cube out and into the delivery zone.
 # References
 Special thanks to the TA's and the Professors from the course Design Principles and Methods in Winter 2022 for providing the SortingAndDeliveryBot folder and everything necessary for completing this project.
